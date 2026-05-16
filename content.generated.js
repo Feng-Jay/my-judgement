@@ -147,7 +147,7 @@ window.JUDGE_DATA = {
       "creator": "Supergiant Games",
       "year": 2020,
       "score": 95,
-      "reviewed": "2026-05-15",
+      "reviewed": "2026-05-16",
       "verdict_zh": "神话、动作和成长回路几乎完美咬合。",
       "verdict_en": "A near-perfect loop of myth, action, and growth.",
       "palette": [
