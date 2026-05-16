@@ -654,6 +654,7 @@ h1 {
 .review-copy {
   display: grid;
   gap: 1rem;
+  min-width: 0;
 }
 
 .page-shell--review .review-copy {
@@ -673,6 +674,7 @@ h1 {
   margin: 0;
   font-size: clamp(2.6rem, 6vw, 4.7rem);
   line-height: 0.96;
+  overflow-wrap: anywhere;
 }
 
 .review-dek {
@@ -681,6 +683,7 @@ h1 {
   color: var(--muted);
   font-size: 1.02rem;
   line-height: 1.8;
+  overflow-wrap: anywhere;
 }
 
 .page-shell--review .review-dek {
@@ -737,6 +740,7 @@ h1 {
   margin: 0;
   color: var(--text);
   line-height: 1.65;
+  overflow-wrap: anywhere;
 }
 
 .review-body {
@@ -770,6 +774,7 @@ h1 {
   color: var(--muted);
   font-size: 1rem;
   line-height: 1.85;
+  overflow-wrap: anywhere;
 }
 
 .review-body a {
@@ -842,6 +847,7 @@ h1 {
   color: var(--muted);
   font-size: 0.92rem;
   line-height: 1.7;
+  overflow-wrap: anywhere;
 }
 
 .page-empty {
@@ -953,10 +959,146 @@ h1 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.95rem;
   }
+
+  .page-shell--review .page-utility {
+    gap: 0.8rem;
+  }
+
+  .page-shell--review .page-utility-group {
+    width: 100%;
+  }
+
+  .page-shell--review .page-utility-group .nav-button {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .page-shell--review .lang-switch {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .page-shell--review .review-page {
+    width: 100%;
+    gap: 1.25rem;
+  }
+
+  .page-shell--review .review-header {
+    width: 100%;
+    gap: 1.1rem;
+    justify-items: stretch;
+    text-align: left;
+  }
+
+  .page-shell--review .review-cover {
+    width: min(100%, 22rem);
+    margin: 0 auto;
+  }
+
+  .page-shell--review .review-copy {
+    width: 100%;
+    justify-items: start;
+  }
+
+  .page-shell--review .review-title,
+  .page-shell--review .review-kicker,
+  .page-shell--review .review-dek {
+    width: 100%;
+    text-align: left;
+  }
+
+  .page-shell--review .review-title {
+    font-size: clamp(2rem, 10vw, 3rem);
+    line-height: 1;
+  }
+
+  .page-shell--review .review-dek {
+    font-size: 0.98rem;
+    line-height: 1.7;
+  }
+
+  .page-shell--review .review-score-row {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 0.8rem;
+  }
+
+  .page-shell--review .review-score {
+    min-width: 3.8rem;
+    min-height: 3.8rem;
+    font-size: 1.4rem;
+  }
+
+  .page-shell--review .review-score-label {
+    font-size: 0.92rem;
+  }
+
+  .page-shell--review .review-meta-grid {
+    width: 100%;
+    gap: 0.7rem 0.9rem;
+  }
+
+  .page-shell--review .review-body {
+    width: 100%;
+  }
+
+  .page-shell--review .review-body h2 {
+    font-size: clamp(1.4rem, 7vw, 1.9rem);
+  }
+
+  .page-shell--review .review-body h3 {
+    font-size: clamp(1.1rem, 5vw, 1.35rem);
+  }
+
+  .page-shell--review .review-body p,
+  .page-shell--review .review-body ul,
+  .page-shell--review .review-body ol,
+  .page-shell--review .review-figure figcaption {
+    font-size: 0.96rem;
+    line-height: 1.75;
+  }
+
+  .page-shell--review .review-body pre {
+    padding: 0.85rem 0.9rem;
+  }
 }
 
 @media (max-width: 520px) {
   .review-grid {
     grid-template-columns: 1fr;
+  }
+
+  .page-shell--review .page-utility-group {
+    gap: 0.6rem;
+  }
+
+  .page-shell--review .page-utility-group .nav-button {
+    min-height: 2.5rem;
+    padding: 0.68rem 0.85rem;
+    font-size: 0.88rem;
+  }
+
+  .page-shell--review .lang-switch {
+    gap: 0.6rem;
+  }
+
+  .page-shell--review .review-header {
+    gap: 0.95rem;
+  }
+
+  .page-shell--review .review-cover {
+    width: min(100%, 19rem);
+  }
+
+  .page-shell--review .review-title {
+    font-size: clamp(1.72rem, 10vw, 2.35rem);
+  }
+
+  .page-shell--review .review-meta-item {
+    padding-top: 0.62rem;
+  }
+
+  .page-shell--review .review-body {
+    gap: 0.9rem;
   }
 }
