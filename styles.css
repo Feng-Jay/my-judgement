@@ -969,11 +969,8 @@ h1 {
     gap: 1.25rem;
   }
 
-  .review-header {
-    grid-template-columns: 1fr;
-  }
-
   .page-shell--review .review-header {
+    grid-template-columns: 1fr;
     width: 100%;
     gap: 1.1rem;
     justify-items: stretch;
