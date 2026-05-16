@@ -18,9 +18,10 @@ const uiText = {
     allReviews: "全部评审",
     score: "评分",
     scoreLabel: "主观判断分数",
-    creator: "作者 / 创作者",
+    scoreLabelCompact: "主观分",
+    creator: "作者",
     year: "年份",
-    reviewed: "评审日期",
+    reviewed: "日期",
     category: "分类",
     missing: "找不到这条评审。",
   },
@@ -30,6 +31,7 @@ const uiText = {
     allReviews: "All Reviews",
     score: "Score",
     scoreLabel: "Personal verdict score",
+    scoreLabelCompact: "Verdict",
     creator: "Creator",
     year: "Year",
     reviewed: "Reviewed",
@@ -422,7 +424,12 @@ function renderPage() {
 
         <div class="review-score-row">
           <span class="review-score">${review.score}</span>
-          <p class="review-score-label">${escapeHtml(uiText[lang].score)} · ${escapeHtml(uiText[lang].scoreLabel)}</p>
+          <p class="review-score-label">
+            <span class="review-score-label-main">${escapeHtml(uiText[lang].score)}</span>
+            <span class="review-score-label-separator" aria-hidden="true">·</span>
+            <span class="review-score-label-detail">${escapeHtml(uiText[lang].scoreLabel)}</span>
+            <span class="review-score-label-compact">${escapeHtml(uiText[lang].scoreLabelCompact)}</span>
+          </p>
         </div>
 
         <div class="review-meta-grid">
