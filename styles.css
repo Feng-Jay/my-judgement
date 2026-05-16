@@ -894,30 +894,8 @@ h1 {
     justify-content: start;
   }
 
-  .review-header {
-    grid-template-columns: 1fr;
-  }
-
   .page-shell--review .page-utility {
     align-items: center;
-  }
-
-  .page-shell--review .review-header {
-    width: min(100%, 42rem);
-    justify-items: center;
-    text-align: center;
-  }
-
-  .page-shell--review .review-copy {
-    justify-items: center;
-  }
-
-  .page-shell--review .review-score-row {
-    justify-content: center;
-  }
-
-  .page-shell--review .review-meta-grid {
-    width: min(100%, 32rem);
   }
 }
 
@@ -989,6 +967,10 @@ h1 {
   .page-shell--review .review-page {
     width: 100%;
     gap: 1.25rem;
+  }
+
+  .review-header {
+    grid-template-columns: 1fr;
   }
 
   .page-shell--review .review-header {
