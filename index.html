@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>万物评审</title>
+    <meta
+      name="description"
+      content="一个默认中文、带英文切换的深蓝色媒体评分主页，按游戏、电影、剧集、图书等分类显示横向滚动评审。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./content.generated.js"></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div id="page-backdrop" class="page-backdrop" aria-hidden="true"></div>
+
+    <main class="page-shell">
+      <section class="hero">
+        <div class="hero-top">
+          <p id="site-eyebrow" class="eyebrow"></p>
+
+          <div class="lang-switch" role="group" aria-label="Language switch">
+            <button
+              id="lang-zh"
+              class="lang-button"
+              type="button"
+              data-lang="zh"
+              aria-pressed="true"
+            >
+              中文
+            </button>
+            <button
+              id="lang-en"
+              class="lang-button"
+              type="button"
+              data-lang="en"
+              aria-pressed="false"
+            >
+              English
+            </button>
+          </div>
+        </div>
+
+        <h1 id="site-title"></h1>
+        <p id="site-description" class="hero-description"></p>
+        <p id="site-note" class="hero-note"></p>
+        <div class="hero-actions">
+          <a id="all-reviews-link" class="nav-button" href="./reviews.html"></a>
+        </div>
+      </section>
+
+      <section
+        id="shelf-container"
+        class="shelf-stack"
+        aria-label="Judgement categories"
+      ></section>
+    </main>
+  </body>
+</html>

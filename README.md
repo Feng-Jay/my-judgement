@@ -47,8 +47,6 @@ title_zh: 万物评审
 title_en: Judge Everything
 description_zh: 游戏、电影、剧集、图书各自占一行。
 description_en: Games, movies, TV series, and books each get their own row.
-note_zh: 每一行对应一个类别，项目多于当前屏幕可见数量时会自动滚动。
-note_en: Each row is a category and auto-scrolls when it has more items than the screen can show.
 category_order: games | films | tv | books
 ```
 

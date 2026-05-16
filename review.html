@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>评审详情</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./content.generated.js"></script>
+    <script src="./review-page.js" defer></script>
+  </head>
+  <body>
+    <div id="page-backdrop" class="page-backdrop" aria-hidden="true"></div>
+
+    <main class="page-shell page-shell--review">
+      <div class="page-utility">
+        <div class="page-utility-group">
+          <a id="home-link" class="nav-button" href="./index.html"></a>
+          <a id="all-reviews-link" class="nav-button" href="./reviews.html"></a>
+        </div>
+
+        <div class="lang-switch" role="group" aria-label="Language switch">
+          <button
+            id="lang-zh"
+            class="lang-button"
+            type="button"
+            data-lang="zh"
+            aria-pressed="true"
+          >
+            中文
+          </button>
+          <button
+            id="lang-en"
+            class="lang-button"
+            type="button"
+            data-lang="en"
+            aria-pressed="false"
+          >
+            English
+          </button>
+        </div>
+      </div>
+
+      <section id="review-app" class="review-page"></section>
+    </main>
+  </body>
+</html>
