@@ -221,6 +221,10 @@ function validateReview(review) {
     throw new Error(`Review "${review.slug}" has an invalid year or score.`);
   }
 
+  if (review.score < 0 || review.score > 10) {
+    throw new Error(`Review "${review.slug}" must use a score between 0 and 10.`);
+  }
+
   if (!/^\d{4}-\d{2}-\d{2}$/.test(review.reviewed) || Number.isNaN(Date.parse(review.reviewed))) {
     throw new Error(`Review "${review.slug}" has an invalid reviewed date: ${review.reviewed}`);
   }

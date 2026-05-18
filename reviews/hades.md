@@ -6,7 +6,7 @@ title_en: Hades
 cover: https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/library_600x900_2x.jpg
 creator: Supergiant Games
 year: 2020
-score: 95
+score: 9.5
 reviewed: 2026-05-18
 verdict_zh: 神话、动作和成长回路几乎完美咬合。
 verdict_en: A near-perfect loop of myth, action, and growth.

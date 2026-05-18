@@ -88,6 +88,10 @@ function getLocalizedReviewSummary(review, lang) {
   );
 }
 
+function formatScore(value) {
+  return Number(value).toFixed(1);
+}
+
 function getPosterTitleLines(title) {
   if (!title.includes(" ")) {
     if (title.length <= 6) {
@@ -329,7 +333,7 @@ function renderCard(review, lang) {
         <figure class="card-poster">
           <img src="${poster}" alt="${escapeHtml(title)}" />
           <span class="card-badge">${escapeHtml(category)}</span>
-          <span class="card-score">${review.score}</span>
+          <span class="card-score">${formatScore(review.score)}</span>
         </figure>
         <div class="card-copy">
           <h3>${escapeHtml(title)}</h3>

@@ -488,9 +488,10 @@ h1 {
 
 .card-score {
   right: 0.8rem;
-  min-width: 2.8rem;
+  min-width: 3.4rem;
   color: #08131f;
   background: linear-gradient(135deg, #8ed4ff, #66c0f4);
+  font-variant-numeric: tabular-nums;
 }
 
 .card-copy {
@@ -708,6 +709,7 @@ h1 {
   background: linear-gradient(135deg, #9cdbff, #66c0f4);
   font-size: 1.7rem;
   font-weight: 900;
+  font-variant-numeric: tabular-nums;
 }
 
 .review-score-label {

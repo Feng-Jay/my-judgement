@@ -6,7 +6,7 @@ title_en: Mad Max: Fury Road
 cover: https://upload.wikimedia.org/wikipedia/en/6/6e/Mad_Max_Fury_Road.jpg
 creator: George Miller
 year: 2015
-score: 93
+score: 9.3
 reviewed: 2026-05-04
 verdict_zh: 看似一直在狂奔，但空间、方向和动作信息都清楚得不可思议。
 verdict_en: It never stops moving, yet its action geography stays astonishingly clear.

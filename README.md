@@ -62,7 +62,7 @@ title_en: Hades
 cover: ./assets/covers/hades.jpg
 creator: Supergiant Games
 year: 2020
-score: 95
+score: 9.5
 reviewed: 2026-05-16
 verdict_zh: 神话、动作和成长回路几乎完美咬合。
 verdict_en: A near-perfect loop of myth, action, and growth.
@@ -86,7 +86,7 @@ Write the long English review here. Images and GIFs use the same markdown syntax
 - `title_zh` and `title_en`
 - `creator`
 - `year`
-- `score`
+- `score`: use the `0.0` to `10.0` scale
 - `reviewed`: use `YYYY-MM-DD`
 - `verdict_zh` and `verdict_en`: short description shown on cards and detail headers
 - `palette`: three colors separated by `|`

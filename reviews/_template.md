@@ -14,7 +14,7 @@ title_en:
 cover:
 creator:
 year:
-score:
+score: 9.0
 reviewed: 2026-05-16
 verdict_zh:
 verdict_en:

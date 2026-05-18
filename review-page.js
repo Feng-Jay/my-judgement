@@ -17,8 +17,8 @@ const uiText = {
     home: "首页",
     allReviews: "全部评审",
     score: "评分",
-    scoreLabel: "主观判断分数",
-    scoreLabelCompact: "主观分",
+    scoreLabel: "10 分制主观判断",
+    scoreLabelCompact: "10 分制",
     creator: "作者/创作者",
     year: "年份",
     reviewed: "评审日期",
@@ -30,8 +30,8 @@ const uiText = {
     home: "Home",
     allReviews: "All Reviews",
     score: "Score",
-    scoreLabel: "Personal verdict score",
-    scoreLabelCompact: "Verdict",
+    scoreLabel: "Personal verdict on a 10-point scale",
+    scoreLabelCompact: "Out of 10",
     creator: "Creator",
     year: "Year",
     reviewed: "Reviewed",
@@ -78,6 +78,10 @@ function getLocalizedReviewSummary(review, lang) {
     getLocalizedReviewField(review, "summary", lang) ||
     getLocalizedReviewField(review, "verdict", lang)
   );
+}
+
+function formatScore(value) {
+  return Number(value).toFixed(1);
 }
 
 function getPosterTitleLines(title) {
@@ -423,7 +427,7 @@ function renderPage() {
         <p class="review-dek">${escapeHtml(summary)}</p>
 
         <div class="review-score-row">
-          <span class="review-score">${review.score}</span>
+          <span class="review-score">${formatScore(review.score)}</span>
           <p class="review-score-label">
             <span class="review-score-label-main">${escapeHtml(uiText[lang].score)}</span>
             <span class="review-score-label-separator" aria-hidden="true">·</span>
