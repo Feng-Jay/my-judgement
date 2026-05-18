@@ -17,433 +17,75 @@ window.JUDGE_DATA = {
   "reviews": [
     {
       "category": "games",
-      "title_zh": "心灵杀手2",
-      "title_en": "Alan Wake 2",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/e/ed/Alan_Wake_2_box_art.jpg",
-      "creator": "Remedy Entertainment",
+      "title_zh": "博德之门3",
+      "title_en": "Baldur's Gate 3",
+      "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/library_600x900_2x.jpg",
+      "creator": "Larian Studios",
       "year": 2023,
-      "score": 9.4,
-      "reviewed": "2026-05-11",
-      "verdict_zh": "形式感极强，也真的知道怎样把怪异做成气氛。",
-      "verdict_en": "Stylish, strange, and unusually confident about its own atmosphere.",
-      "palette": [
-        "#0b1423",
-        "#173964",
-        "#5da8ff"
-      ],
-      "slug": "alan-wake-2"
-    },
-    {
-      "category": "tv",
-      "title_zh": "双城之战",
-      "title_en": "Arcane",
-      "creator": "Riot Games / Fortiche",
-      "year": 2021,
       "score": 9.3,
-      "reviewed": "2026-05-06",
-      "verdict_zh": "美术风格很抢眼，但真正留住人的是人物关系的推拉节奏。",
-      "verdict_en": "The visual style is stunning, but the relationship drama is what gives it weight.",
-      "palette": [
-        "#0c1730",
-        "#2c4771",
-        "#7dc9ff"
-      ],
-      "slug": "arcane"
-    },
-    {
-      "category": "films",
-      "title_zh": "爱在黎明破晓前",
-      "title_en": "Before Sunrise",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/d/da/Before_Sunrise_poster.jpg",
-      "creator": "Richard Linklater",
-      "year": 1995,
-      "score": 8.8,
-      "reviewed": "2026-05-02",
-      "verdict_zh": "几乎只靠对话推进，却能把短暂相遇拍得非常具体。",
-      "verdict_en": "Built on conversation, yet it makes a brief encounter feel unusually concrete.",
-      "palette": [
-        "#0e1830",
-        "#2b4d7a",
-        "#78c3ff"
-      ],
-      "slug": "before-sunrise"
-    },
-    {
-      "category": "tv",
-      "title_zh": "风骚律师",
-      "title_en": "Better Call Saul",
-      "creator": "AMC",
-      "year": 2015,
-      "score": 9.6,
-      "reviewed": "2026-05-12",
-      "verdict_zh": "它越拍越慢，也越拍越准，最后把人物坠落写得非常完整。",
-      "verdict_en": "It grows slower and sharper at once, and finishes its character descent beautifully.",
-      "palette": [
-        "#111a2d",
-        "#3f5069",
-        "#8dd2ff"
-      ],
-      "slug": "better-call-saul"
-    },
-    {
-      "category": "games",
-      "title_zh": "赛博朋克2077",
-      "title_en": "Cyberpunk 2077",
-      "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/library_600x900_2x.jpg",
-      "creator": "CD PROJEKT RED",
-      "year": 2020,
-      "score": 8.6,
-      "reviewed": "2026-04-18",
-      "verdict_zh": "夜之城的规模和质感确实强，但真正留下来的还是角色线的情绪浓度。",
-      "verdict_en": "Night City is impressive in scale, but the character arcs are what actually linger.",
-      "palette": [
-        "#17171c",
-        "#2a5a63",
-        "#f2d93d"
-      ],
-      "slug": "cyberpunk-2077"
-    },
-    {
-      "category": "games",
-      "title_zh": "极乐迪斯科",
-      "title_en": "Disco Elysium",
-      "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/632470/library_600x900_2x.jpg",
-      "creator": "ZA/UM",
-      "year": 2019,
-      "score": 9.6,
-      "reviewed": "2026-05-08",
-      "verdict_zh": "文字、角色和意识流结构都大胆得很彻底，而且真的成立。",
-      "verdict_en": "Radical in language, character, and structure, and it actually lands.",
-      "palette": [
-        "#111827",
-        "#26476a",
-        "#7cc6ff"
-      ],
-      "slug": "disco-elysium"
-    },
-    {
-      "category": "films",
-      "title_zh": "沙丘2",
-      "title_en": "Dune: Part Two",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/5/52/Dune_Part_Two_poster.jpeg",
-      "creator": "Denis Villeneuve",
-      "year": 2024,
-      "score": 9.2,
-      "reviewed": "2026-05-13",
-      "verdict_zh": "场面巨大，但真正撑住它的是镜头与节奏上的克制。",
-      "verdict_en": "Huge in scale, but carried by restraint and control rather than noise.",
-      "palette": [
-        "#101e32",
-        "#335c8f",
-        "#85d5ff"
-      ],
-      "slug": "dune-part-two"
-    },
-    {
-      "category": "games",
-      "title_zh": "黑帝斯",
-      "title_en": "Hades",
-      "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/library_600x900_2x.jpg",
-      "creator": "Supergiant Games",
-      "year": 2020,
-      "score": 9.5,
       "reviewed": "2026-05-18",
-      "verdict_zh": "神话、动作和成长回路几乎完美咬合。",
-      "verdict_en": "A near-perfect loop of myth, action, and growth.",
+      "verdict_zh": "网状叙事与涌现式交互新的巅峰，玩家的每一个细微选择都会在剑湾世界里激起层层涟漪。",
+      "verdict_en": "A new pinnacle of webbed narrative and emergent interaction, where every subtle choice you make ripples through the world of the Sword Coast.",
       "palette": [
         "#08192d",
         "#12416d",
         "#66c0f4"
       ],
-      "slug": "hades",
-      "review_zh": "《黑帝斯》最厉害的地方，不只是打起来足够流畅，而是它把失败、成长与叙事推进绑成了同一个循环。\n每一次回到冥界大厅，都会让你觉得自己不是“被打回起点”，而是在继续把一段关系网慢慢打开。\n\n![黑帝斯封面](https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/library_600x900_2x.jpg \"黑帝斯封面\")\n\n战斗节奏非常清楚，武器差异也足够大，所以重复几十次以后仍然会有新的打法念头。\n真正让它成立的还是角色书写: 几乎每个神、每个家人、每个旁支人物都能在反复对话里长出存在感。",
-      "review_en": "What makes Hades special is not just how good it feels in motion, but how tightly it binds failure, progression, and narrative into the same loop.\nEvery return to the House of Hades feels less like a reset and more like another turn of a relationship web opening up.\n\n![Hades key art](https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/library_600x900_2x.jpg \"Hades key art\")\n\nCombat stays readable, weapon identities stay distinct, and repeated runs keep generating new tactical ideas.\nWhat truly makes the game last, though, is the character writing: nearly every god, family member, and side figure gains texture through repetition."
+      "slug": "BaldursGate"
     },
     {
       "category": "games",
-      "title_zh": "空洞骑士",
-      "title_en": "Hollow Knight",
-      "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/library_600x900_2x.jpg",
-      "creator": "Team Cherry",
-      "year": 2017,
-      "score": 9.3,
-      "reviewed": "2026-04-26",
-      "verdict_zh": "地图、手感和氛围都足够克制，所以它的孤独感会慢慢沉进去。",
-      "verdict_en": "Its map, movement, and atmosphere are restrained enough to let the loneliness sink in.",
-      "palette": [
-        "#101621",
-        "#39516f",
-        "#98bddb"
-      ],
-      "slug": "hollow-knight"
-    },
-    {
-      "category": "films",
-      "title_zh": "疯狂的麦克斯：狂暴之路",
-      "title_en": "Mad Max: Fury Road",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6e/Mad_Max_Fury_Road.jpg",
-      "creator": "George Miller",
-      "year": 2015,
-      "score": 9.3,
-      "reviewed": "2026-05-04",
-      "verdict_zh": "看似一直在狂奔，但空间、方向和动作信息都清楚得不可思议。",
-      "verdict_en": "It never stops moving, yet its action geography stays astonishingly clear.",
-      "palette": [
-        "#111726",
-        "#504d5f",
-        "#9cd6ff"
-      ],
-      "slug": "mad-max-fury-road"
-    },
-    {
-      "category": "films",
-      "title_zh": "月光男孩",
-      "title_en": "Moonlight",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/8/84/Moonlight_%282016_film%29.png",
-      "creator": "Barry Jenkins",
-      "year": 2016,
-      "score": 9.4,
-      "reviewed": "2026-05-10",
-      "verdict_zh": "它安静得近乎脆弱，但镜头里的情绪密度高得惊人。",
-      "verdict_en": "Quiet almost to the point of fragility, yet emotionally packed in every frame.",
-      "palette": [
-        "#0c1931",
-        "#27567f",
-        "#80d3ff"
-      ],
-      "slug": "moonlight"
-    },
-    {
-      "category": "books",
-      "title_zh": "别让我走",
-      "title_en": "Never Let Me Go",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/6/66/Never_Let_Me_Go_%28First-edition_cover%29.jpg",
-      "creator": "Kazuo Ishiguro",
-      "year": 2005,
-      "score": 9.2,
-      "reviewed": "2026-05-10",
-      "verdict_zh": "情绪始终被压着写，却因此让后劲变得更残忍。",
-      "verdict_en": "Its restraint makes the eventual emotional damage land even harder.",
-      "palette": [
-        "#121a2f",
-        "#36557b",
-        "#91d9ff"
-      ],
-      "slug": "never-let-me-go"
-    },
-    {
-      "category": "games",
-      "title_zh": "星际拓荒",
-      "title_en": "Outer Wilds",
-      "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/753640/library_600x900_2x.jpg",
-      "creator": "Mobius Digital",
-      "year": 2019,
-      "score": 9.7,
-      "reviewed": "2026-05-03",
-      "verdict_zh": "好奇心本身被设计成了玩法，因此探索会留下真正的余味。",
-      "verdict_en": "Curiosity itself becomes the mechanic, which gives discovery real aftertaste.",
-      "palette": [
-        "#0b1f37",
-        "#1d5176",
-        "#79d7ff"
-      ],
-      "slug": "outer-wilds"
-    },
-    {
-      "category": "books",
-      "title_zh": "皮拉内西",
-      "title_en": "Piranesi",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/2/24/Piranesi_%28Susanna_Clarke%29.png",
-      "creator": "Susanna Clarke",
-      "year": 2020,
-      "score": 9.3,
-      "reviewed": "2026-05-14",
-      "verdict_zh": "神秘、孤独与温柔被缝成了一个很少见的空间感。",
-      "verdict_en": "Mystery, solitude, and tenderness fused into a rare sense of space.",
-      "palette": [
-        "#0d213b",
-        "#2f6285",
-        "#8bd7ff"
-      ],
-      "slug": "piranesi"
-    },
-    {
-      "category": "games",
-      "title_zh": "传送门2",
-      "title_en": "Portal 2",
-      "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/620/library_600x900_2x.jpg",
-      "creator": "Valve",
-      "year": 2011,
-      "score": 9.4,
-      "reviewed": "2026-04-15",
-      "verdict_zh": "谜题设计依然精准得近乎干净，而且它还知道什么时候该把笑点放进节奏里。",
-      "verdict_en": "The puzzle design is still remarkably clean, and it knows exactly when humor should break the pace.",
-      "palette": [
-        "#101720",
-        "#3c566f",
-        "#8ec3ea"
-      ],
-      "slug": "portal-2"
-    },
-    {
-      "category": "games",
-      "title_zh": "只狼：影逝二度",
-      "title_en": "Sekiro: Shadows Die Twice",
-      "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/library_600x900_2x.jpg",
-      "creator": "FromSoftware",
-      "year": 2019,
-      "score": 9.4,
-      "reviewed": "2026-04-29",
-      "verdict_zh": "它把招架、节奏与压力揉成一体，所以每次胜利都像真正学会了一门技术。",
-      "verdict_en": "It fuses parry timing, pressure, and rhythm so tightly that every win feels learned.",
-      "palette": [
-        "#18120f",
-        "#704126",
-        "#d4975b"
-      ],
-      "slug": "sekiro-shadows-die-twice"
-    },
-    {
-      "category": "tv",
-      "title_zh": "人生切割术",
-      "title_en": "Severance",
-      "creator": "Apple TV+",
-      "year": 2022,
-      "score": 9,
-      "reviewed": "2026-05-09",
-      "verdict_zh": "概念当然聪明，但真正抓人的是角色内里的裂缝。",
-      "verdict_en": "Clever in concept, but the emotional cracks are what make it stick.",
-      "palette": [
-        "#09192a",
-        "#24577a",
-        "#7cd4ff"
-      ],
-      "slug": "severance"
-    },
-    {
-      "category": "tv",
-      "title_zh": "幕府将军",
-      "title_en": "Shogun",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/b/b6/Sh%C5%8Dgun_%282024_miniseries%29_poster.jpg",
-      "creator": "FX",
-      "year": 2024,
-      "score": 9.1,
-      "reviewed": "2026-05-16",
-      "verdict_zh": "大制作不是重点，真正难得的是它肯让权力关系慢慢发酵。",
-      "verdict_en": "The scale helps, but the real strength is its patience with power and tension.",
-      "palette": [
-        "#0a1627",
-        "#28476a",
-        "#6ec3ff"
-      ],
-      "slug": "shogun"
-    },
-    {
-      "category": "games",
-      "title_zh": "杀戮尖塔",
-      "title_en": "Slay the Spire",
-      "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/646570/library_600x900_2x.jpg",
-      "creator": "Mega Crit Games",
-      "year": 2019,
-      "score": 9.2,
-      "reviewed": "2026-04-22",
-      "verdict_zh": "它几乎是把构筑乐趣提纯到了最前面，因此重复玩也很少失去判断空间。",
-      "verdict_en": "It distills deckbuilding pleasure so well that repeated runs still feel full of choices.",
-      "palette": [
-        "#1b1324",
-        "#623040",
-        "#c9836c"
-      ],
-      "slug": "slay-the-spire"
-    },
-    {
-      "category": "films",
-      "title_zh": "千与千寻",
-      "title_en": "Spirited Away",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/d/db/Spirited_Away_Japanese_poster.png",
-      "creator": "Hayao Miyazaki",
-      "year": 2001,
+      "title_zh": "天国拯救2",
+      "title_en": "Kingdom Come: Deliverance II",
+      "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1771300/library_600x900_2x.jpg",
+      "creator": "Warhorse Studios",
+      "year": 2025,
       "score": 9.5,
-      "reviewed": "2026-05-07",
-      "verdict_zh": "想象力当然惊人，但真正厉害的是它始终保留温柔与秩序。",
-      "verdict_en": "Wildly imaginative, but even better at staying gentle and emotionally precise.",
+      "reviewed": "2026-05-18",
+      "verdict_zh": "在我的游玩经历中，从未对一个角色和世界的命运如此投入过。Audentes fortuna iuvat!",
+      "verdict_en": "I've never been so invested in the fate of a character and world in my gaming experience. Audentes fortuna iuvat!",
       "palette": [
-        "#0b2240",
-        "#2f6e96",
-        "#8be3ff"
+        "#08192d",
+        "#12416d",
+        "#66c0f4"
       ],
-      "slug": "spirited-away"
+      "slug": "KingdomComeDeliveranceII"
     },
     {
       "category": "tv",
-      "title_zh": "熊家餐馆",
-      "title_en": "The Bear",
-      "creator": "FX",
-      "year": 2022,
-      "score": 8.9,
-      "reviewed": "2026-05-01",
-      "verdict_zh": "压迫感很强，却没有丢掉对劳动与亲密关系的温度。",
-      "verdict_en": "Stressful on purpose, but still warm about work and intimacy.",
+      "title_zh": "漫长的季节",
+      "title_en": "The Long Season",
+      "cover": "https://upload.wikimedia.org/wikipedia/zh/5/5d/The_Long_Season_poster.jpg",
+      "creator": "辛爽",
+      "year": 2023,
+      "score": 9.5,
+      "reviewed": "2026-05-18",
+      "verdict_zh": "在鲜明的角色塑造和巧妙的剧情编排之外，一个时代的叙事也在逐渐展开。",
+      "verdict_en": "Beyond its vivid characters and clever plotting, it also unfolds a narrative of an era.",
       "palette": [
-        "#0e1c2a",
-        "#35607b",
-        "#89ddff"
+        "#08192d",
+        "#12416d",
+        "#66c0f4"
       ],
-      "slug": "the-bear"
+      "slug": "漫长的季节"
     },
     {
-      "category": "books",
-      "title_zh": "一无所有的人",
-      "title_en": "The Dispossessed",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/f/fc/TheDispossed%281stEdHardcover%29.jpg",
-      "creator": "Ursula K. Le Guin",
-      "year": 1974,
-      "score": 9.4,
-      "reviewed": "2026-05-08",
-      "verdict_zh": "它把制度、理想与人的局限写在同一层面上，因此非常耐读。",
-      "verdict_en": "It keeps systems, ideals, and human limits on the same plane, which makes it endure.",
+      "category": "games",
+      "title_zh": "逃离鸭科夫",
+      "title_en": "Escape from Duckov",
+      "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3167020/library_600x900_2x.jpg",
+      "creator": "Team Soda",
+      "year": 2025,
+      "score": 8.5,
+      "reviewed": "2026-05-18",
+      "verdict_zh": "国产搜打撤的真正荣光，装备与物资体系丰富，主线具有一定的深度与张力，作为独立游戏完成度很高。",
+      "verdict_en": "A true glory of domestic search-and-destroy games, with a rich equipment and supplies system, a main storyline with a certain depth and tension, and a high level of completion for an indie game.",
       "palette": [
-        "#0c1a2d",
-        "#29506f",
-        "#84ceff"
+        "#08192d",
+        "#12416d",
+        "#66c0f4"
       ],
-      "slug": "the-dispossessed"
-    },
-    {
-      "category": "books",
-      "title_zh": "黑暗的左手",
-      "title_en": "The Left Hand of Darkness",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/8/88/TheLeftHandOfDarkness1stEd.jpg",
-      "creator": "Ursula K. Le Guin",
-      "year": 1969,
-      "score": 8.9,
-      "reviewed": "2026-05-05",
-      "verdict_zh": "它不是靠设定炫技，而是认真追问身份、政治与关系如何生成。",
-      "verdict_en": "More interested in identity and politics than in showing off its own premise.",
-      "palette": [
-        "#0c1730",
-        "#2a4f7a",
-        "#79bfff"
-      ],
-      "slug": "the-left-hand-of-darkness"
-    },
-    {
-      "category": "books",
-      "title_zh": "玫瑰之名",
-      "title_en": "The Name of the Rose",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/e/eb/The_Name_of_the_Rose.jpg",
-      "creator": "Umberto Eco",
-      "year": 1980,
-      "score": 8.7,
-      "reviewed": "2026-05-04",
-      "verdict_zh": "复杂、曲折、也有点故意，但它的迷宫感本身就是魅力。",
-      "verdict_en": "Dense and sometimes stubborn, but its labyrinth quality is part of the appeal.",
-      "palette": [
-        "#0a1427",
-        "#20476f",
-        "#69b9ff"
-      ],
-      "slug": "the-name-of-the-rose"
+      "slug": "逃离鸭科夫"
     }
   ]
 };

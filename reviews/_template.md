@@ -29,10 +29,20 @@ summary_en:
 ---
 ## zh
 
-这里写中文长评正文。可以放图片、动图、列表、引用。
-<!-- 可选图片示例：![示意图片](./assets/your-image.jpg "图片说明") -->
+《黑帝斯》最厉害的地方，不只是打起来足够流畅，而是它把失败、成长与叙事推进绑成了同一个循环。
+每一次回到冥界大厅，都会让你觉得自己不是“被打回起点”，而是在继续把一段关系网慢慢打开。
+
+![黑帝斯封面](https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/library_600x900_2x.jpg "黑帝斯封面")
+
+战斗节奏非常清楚，武器差异也足够大，所以重复几十次以后仍然会有新的打法念头。
+真正让它成立的还是角色书写: 几乎每个神、每个家人、每个旁支人物都能在反复对话里长出存在感。
 
 ## en
 
-Write the long English review here. Images and GIFs use the same markdown syntax.
-<!-- Optional media example: ![Example image](./assets/your-image.gif "Optional caption") -->
+What makes Hades special is not just how good it feels in motion, but how tightly it binds failure, progression, and narrative into the same loop.
+Every return to the House of Hades feels less like a reset and more like another turn of a relationship web opening up.
+
+![Hades key art](https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/library_600x900_2x.jpg "Hades key art")
+
+Combat stays readable, weapon identities stay distinct, and repeated runs keep generating new tactical ideas.
+What truly makes the game last, though, is the character writing: nearly every god, family member, and side figure gains texture through repetition.
